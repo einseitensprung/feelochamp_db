@@ -757,6 +757,16 @@ body.page-default .programme-head h2{
 }
 .md-select .btn:hover, .md-select .btn:focus{ background: rgba(255,106,26,0.14); color:var(--white); }
 .md-select .dropdown-menu{ min-width: 7rem; }
+.btn-ghost-feelo{
+  display:inline-flex; align-items:center; gap:.4rem;
+  background:transparent; border:1px solid rgba(255,255,255,0.14);
+  color: rgba(255,255,255,0.72);
+  font-size:.82rem; font-weight:500;
+  padding:.5rem .85rem; border-radius:.6rem;
+}
+.btn-ghost-feelo:hover, .btn-ghost-feelo:focus-visible{
+  background: rgba(255,255,255,0.06); border-color: var(--line-cyan); color: var(--white);
+}
 
 /* ---------- Info notice, "deselect first" hint (Aufsteiger) ---------- */
 .notice-feelo{
