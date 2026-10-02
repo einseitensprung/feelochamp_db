@@ -13,6 +13,14 @@ Konkret:
 - Ausnahme: Der Nutzer sagt explizit, dass mehrere Schritte in einem Commit zusammengefasst werden sollen.
 - Wenn `git push` fehlschlägt (z. B. Remote hat neue Commits): nicht stillschweigend überspringen, sondern rebasen/mergen und erneut pushen, oder den Nutzer informieren, falls das nicht sauber möglich ist.
 - Commit-Messages kurz und auf Deutsch oder Englisch (konsistent mit vorherigen Commits), beschreiben **was** sich geändert hat, nicht nur "update".
+- Diese Regel gilt als dauerhafte Freigabe: Commit und Push nach jeder Änderung erfolgen **ohne Rückfrage**.
+
+### Remotes
+
+Dieses Repo (`feelochamp_db`) ist eine Kopie von `feelochamp_el`.
+
+- `origin` = `https://github.com/einseitensprung/feelochamp_db.git` — **hierhin wird gepusht** (`git push origin main`).
+- `upstream` = `https://github.com/einseitensprung/feelochamp_el.git` — nur Quelle, **niemals dorthin pushen**.
 
 ## Build-Workflow
 
